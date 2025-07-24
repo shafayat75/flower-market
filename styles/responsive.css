@@ -1,0 +1,143 @@
+@media screen and (max-width: 576px) {
+  /* common flex direction */
+  .plants-lover-section,
+  .latest-deal-img-container,
+  .footer-container {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  /* header and nav */
+  .nav {
+    padding: 0px 20px;
+  }
+  .nav-container ul {
+    display: none;
+  }
+  .header {
+    margin-bottom: 100px;
+  }
+  .banner-right img {
+    max-width: 100%;
+  }
+  .banner {
+    margin-top: 80px;
+  }
+  .nav img {
+    width: 20%;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 15px;
+  }
+  .banner-left {
+    padding: 20px;
+  }
+  /* plants-section */
+  .plants-container h1 {
+    font-size: 40px;
+  }
+  .plants-container p {
+    font-size: 15px;
+  }
+  .plants-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plants-container p {
+    width: 100%;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card img {
+    width: 100%;
+  }
+  .plants-container {
+    padding: 0px 20px;
+  }
+  .plants-cards {
+    column-gap: 0px;
+  }
+  /* plants-lover-section */
+  .plants-lover-section {
+    margin-bottom: 50px;
+  }
+  .badge-container {
+    display: none;
+  }
+  .plants-lover-img-container {
+    width: 90%;
+  }
+  .plants-lover-container {
+    margin: 0px;
+    width: 90%;
+    padding: 20px;
+  }
+  .plants-lover-container h1 {
+    font-size: 27px;
+    width: 100%;
+  }
+  .break {
+    display: none;
+  }
+  .plants-lover-container ul li {
+    font-size: 15px;
+  }
+  /* latest-deal */
+  .latest-deal-img-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .latest-deal-img3 {
+    width: 366.22px;
+    height: 206px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .latest-deal-img1,
+  .latest-deal-img2 {
+    width: 100%;
+  }
+  .latest-deal-img3 h4 {
+    font-size: 20px;
+  }
+  .latest-deal-img3 p {
+    font-size: 16px;
+  }
+  /* join section */
+  .input-container input {
+    width: 100%;
+  }
+  .join h1 {
+    font-size: 30px;
+  }
+  .join {
+    background-size: cover;
+    height: 275px;
+  }
+  /* footer section */
+  .footer-container {
+    width: 100%;
+    padding: 30px;
+  }
+  .footer-container p {
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .anchor-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .footer-img {
+    margin: 0px;
+  }
+  .footer-img img {
+    margin: 0px;
+    margin-right: 20px;
+  }
+}
